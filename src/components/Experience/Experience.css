@@ -1,0 +1,21 @@
+.experience-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.experience-card {
+  background-color: #000000;
+  width: 93%;
+  padding-bottom: 1.5rem;
+  border-radius: 20px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.experience-text {
+  margin-left: 1rem;
+}

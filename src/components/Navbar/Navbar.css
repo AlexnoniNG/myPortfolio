@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+PE:wght@100..400&display=swap");
+
+header {
+  margin-left: 0.8rem;
+  margin-top: 1rem;
+  background-color: rgb(10, 10, 10);
+  padding: 4%;
+  padding-bottom: 1%;
+  width: 94%;
+  border-radius: 25px;
+  /* box-shadow: 5px 5px 5px gray; */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  display: flex;
+}
+
+.nav-logo h2 {
+  margin-left: 0.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.special {
+  color: #4b70f5;
+}
+
+.nav-logo i {
+  font-size: 30px;
+  color: aliceblue;
+}
+
+.nav-links,
+.lets-talk-btn,
+.moon-icon {
+  display: none;
+}
+
+.menu-icon i {
+  font-size: 30px;
+  color: rgb(198, 194, 194);
+}
+
+@media only screen and (min-width: 1200px) {
+  header {
+    width: 85%;
+    border-radius: 20px;
+    margin-left: 5rem;
+  }
+  .nav-links,
+  .lets-talk-btn,
+  .moon-icon {
+    display: block;
+  }
+
+  .nav-links ul {
+    display: flex;
+    margin-top: 0em;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+  }
+
+  .nav-links ul li {
+    list-style: none;
+    margin-left: 2rem;
+    font-size: 18px;
+  }
+
+  .nav-links ul li a {
+    text-decoration: none;
+    color: #757c8e;
+    font-weight: bold;
+  }
+
+  .nav-links a:hover {
+    background-color: #b0b6c431;
+    color: #797983;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+  }
+
+  .nav-links li.active a {
+    background-color: #b0b6c431;
+    color: #000;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+  }
+
+  .lets-talk-btn {
+    margin-top: 0.2rem;
+  }
+
+  .lets-talk-btn a {
+    background-color: black;
+    color: white;
+    padding: 12px 25px 10px 25px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+
+  .moon-icon {
+    margin-left: 4em;
+  }
+
+  .moon-icon i {
+    font-size: 20px;
+    margin-top: 0.2em;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+}

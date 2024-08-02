@@ -1,0 +1,87 @@
+.Profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.Profile-card {
+  background-color: #000000;
+  width: 93%;
+  padding-bottom: 1.5rem;
+  border-radius: 20px;
+}
+
+.Profile-card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.card-text {
+  margin-left: 1rem;
+  text-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.card-text h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.card-text p {
+  margin-top: 1rem;
+  width: 90%;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #757c8e;
+  font-size: 20px;
+}
+
+.card-text-inner {
+  display: flex;
+}
+
+.card-text-inner i {
+  margin-left: 0.5em;
+  font-size: 28px;
+  color: #4b70f5;
+}
+
+.full-stack {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.contact-container {
+  margin-top: 3rem;
+  margin-left: 1em;
+}
+.call-btn {
+  padding: 20px 25px 20px;
+  background-color: #4b70f5;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+
+.email-btn {
+  margin-left: 1.5em;
+  padding: 20px 15px 20px;
+  /* background-color: #4b70f5; */
+  color: #757c8e;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  border-right: 2px solid rgb(153, 153, 153);
+}
+
+@media only screen and (min-width: 580px) {
+  .Profile-card {
+    width: 90%;
+    margin-right: 2rem;
+  }
+}
